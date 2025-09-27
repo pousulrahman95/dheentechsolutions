@@ -94,21 +94,7 @@ const Home = () => {
                     <span className="text-gray-700">{item}</span>
                   </div>
                 ))}
-              </div>
               
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </div>
-            </div>
-            <div className="mt-12 lg:mt-0">
-              <img
-                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Team working"
-                className="rounded-lg shadow-lg w-full"
-              />
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Features Section */}
