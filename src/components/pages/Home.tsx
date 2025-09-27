@@ -158,27 +158,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white">
-            Ready to Start Your Project?
-          </h2>
-          <p className="mt-4 text-xl text-blue-100">
-            Let's discuss your requirements and bring your vision to life.
-          </p>
-          <div className="mt-8">
-            <Link
-              to="/contact"
-              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-blue-600 bg-white hover:bg-gray-50 transition-colors duration-200"
-            >
-              Contact Us Today
-              <ArrowRight className="ml-2 h-5 w-5" />
-              
-
-            </Link>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };
