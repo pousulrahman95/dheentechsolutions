@@ -186,7 +186,7 @@ const Inspector = () => {
               </div>
             )}
             
-            {elementInfo.className && (
+            {elementInfo.className && typeof elementInfo.className === 'string' && (
               <div>
                 <span className="font-medium text-gray-700">Classes:</span>
                 <div className="mt-1 flex flex-wrap gap-1">
