@@ -162,26 +162,7 @@ const About = () => {
       </section>
 
       {/* Achievements */}
-      <section className="py-20 bg-blue-600">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-white">
-              Our Achievements
-            </h2>
-            <p className="mt-4 text-xl text-blue-100">
-              Numbers that speak to our commitment and success
-            </p>
-          </div>
-          <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold text-white">{achievement.number}</div>
-                <div className="mt-2 text-blue-100">{achievement.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };
