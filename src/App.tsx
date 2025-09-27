@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact';
 import Gallery from './components/pages/Gallery';
 import Projects from './components/pages/Projects';
 import CodeViewer from './components/shared/CodeViewer';
+import Inspector from './components/shared/Inspector';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </main>
         <Footer />
         <CodeViewer />
+        <Inspector />
       </div>
     </Router>
   );
