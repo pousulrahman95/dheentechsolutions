@@ -40,7 +40,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-           <nav className="mr-50"> 
+           <nav className="mr-40"> 
         <ul className="flex space-x-16">
           {navigation.map((item) => (
             <li key={item.name}>
