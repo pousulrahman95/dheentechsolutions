@@ -33,7 +33,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-2">
             <img 
               src="/Untitled design (2).png" 
-              alt="DTS SOFTWARE" 
+              alt="" 
               className="h-10 w-10"
             />
             <span className="text-xl font-bold text-gray-900">Dheen Tech Solutions</span>
