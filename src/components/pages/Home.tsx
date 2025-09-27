@@ -95,12 +95,7 @@ const Home = () => {
                   </div>
                 ))}
               </div>
-              <div className="mt-8">
-                <Link
-                  to="/about"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
-                >
-                  Learn more about us
+              
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </div>
