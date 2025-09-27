@@ -96,8 +96,6 @@ const Home = () => {
                 ))}
               </div>
               
-        </div>
-      </section>
 
       {/* Features Section */}
       <section className="py-20 bg-white">
