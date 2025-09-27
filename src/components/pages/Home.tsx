@@ -100,7 +100,21 @@ const Home = () => {
                   to="/about"
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                 >
-                  
+                 
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+            <div className="mt-12 lg:mt-0">
+              <img
+                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Team working"
+                className="rounded-lg shadow-lg w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Features Section */}
       <section className="py-20 bg-white">
