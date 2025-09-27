@@ -34,7 +34,7 @@ const Header = () => {
             <img 
               src="/Untitled design (2).png" 
               alt="DTS SOFTWARE" 
-              className="h-05 w-auto"
+              className="h-15 w-auto"
             />
             <span className="text-xl font-bold text-gray-900">Dheen Tech Solutions</span>
           </Link>
